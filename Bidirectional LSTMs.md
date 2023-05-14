@@ -1,0 +1,5 @@
+A bidirectional LSTM is a type of [[Long Short-Term Memory Networks]] that processes the input sequence in both forward and backward directions. This means that the input sequence is processed twice: once from the beginning to the end, and once from the end to the beginning.
+
+During the forward pass, the input sequence is processed as usual, with each time step being fed into the LSTM in order. During the backward pass, the input sequence is processed in reverse order, with the last time step being fed into the LSTM first and the first time step being fed in last.
+
+By processing the input sequence in both directions, bidirectional LSTMs are able to capture information from both past and future contexts, which can be useful for tasks such as speech recognition, named entity recognition, and sentiment analysis, where the context of a word or phrase is important for understanding its meaning.

@@ -1,0 +1,2 @@
+
+Parametric generative models are models that make strong assumptions about the functional form of the probability distribution they are trying to estimate. These models typically have a fixed number of parameters that need to be estimated from the training data. Examples of parametric generative models include the Gaussian mixture model (GMM) and the Bernoulli mixture model (BMM).

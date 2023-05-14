@@ -1,0 +1,3 @@
+In semi-supervised generative modeling, the model uses both labeled and unlabeled data during training. The labeled data provides information about the target variable or class, while the unlabeled data is used to model the underlying probability distribution.
+
+An example of semi-supervised [[Generative Models]] is the conditional generative adversarial network (cGAN), which extends the original GAN by conditioning the generator and discriminator on additional information, such as class labels or attributes. This allows the model to learn to generate samples that belong to a specific class or exhibit certain attributes.

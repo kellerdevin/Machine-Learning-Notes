@@ -1,0 +1,3 @@
+Overfitting is a common problem in machine learning and occurs when a model is too complex or too flexible, and it learns the training data too well, to the point that it begins to memorize the training data instead of generalizing patterns from it.
+
+This means that the model becomes very good at predicting the outputs of the training data but does not perform well on new, unseen data. In other words, it fails to generalize to new data.

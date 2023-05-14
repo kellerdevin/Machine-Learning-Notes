@@ -1,0 +1,7 @@
+In backpropagation, the error between the predicted output of the neural network and the actual target output is computed, and this error is then propagated backwards through the network to update the weights and biases in each layer.
+
+To be more specific, the backpropagation algorithm computes the gradients of the loss function with respect to the weights and biases in the network using the chain rule of calculus. These gradients tell us the direction and magnitude of the change we need to make to the weights and biases in order to reduce the error.
+
+Once we have computed the gradients, we update the weights and biases in the network using an optimization algorithm such as [[Stochastic Gradient Descent]] (SGD). SGD adjusts the weights and biases in the direction of the negative gradient of the loss function, which means that it moves the weights and biases in the direction that reduces the error.
+
+The size of the updates made to the weights and biases during each iteration of the optimization algorithm is controlled by a parameter called the learning rate. If the learning rate is too high, the updates can be too large and cause the network to overshoot the optimal weights and biases. If the learning rate is too low, the updates can be too small and the network may take a long time to converge to the optimal weights and biases.

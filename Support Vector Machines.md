@@ -1,0 +1,3 @@
+[[Discriminate Model]]
+[[Supervised Learning]]
+
